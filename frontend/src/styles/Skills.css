@@ -1,0 +1,82 @@
+.skills-container {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .tabs button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .tabs button.active {
+    background-color: #6200ea;
+    color: #fff;
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .tabs button:hover {
+    background-color: #e0e0e0;
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .skill-item {
+    background-color: #f7f7f7;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    color: #333;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .skill-item:hover {
+    transform: scale(1.05);
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .skill-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  @keyframes clipIn {
+    0% {clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); opacity: 0;}
+    100% {clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); opacity: 1;}
+  }

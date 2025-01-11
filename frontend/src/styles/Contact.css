@@ -1,0 +1,62 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Sesuaikan font menjadi Poppins */
+  }
+  
+  /* Contact Section */
+  .contact-container {
+    text-align: center;
+    margin: 20px;
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .contact .avatar {
+    width: 20%; /* Ukuran gambar avatar diperkecil */
+    height: 70%; /* Sesuaikan dengan ukuran asli */
+    border-radius: 50%; /* Tambahkan bulatan pada gambar */
+    margin-bottom: 20px;
+    aspect-ratio: 1 / 1; /* Membuat ukuran tinggi dan lebar sama */
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .contact h1 {
+    font-size: 2rem;
+    color: #4a4a4a;
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #6a6a6a;
+    margin: 10px 0 20px;
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .contact-item {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .contact-item:hover {
+    background-color: #e0e0e0;
+  }
+  @keyframes clipIn {
+    0% {clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); opacity: 0;}
+    100% {clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); opacity: 1;}
+  }

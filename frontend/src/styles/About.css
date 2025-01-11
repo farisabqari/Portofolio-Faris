@@ -1,0 +1,82 @@
+.about-container {
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: 'Poppins', sans-serif; /* Sesuaikan font menjadi Poppins */
+    text-align: center; /* Sesuaikan teks menjadi rata tengah */
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .profile-section {
+    text-align: center; /* Sesuaikan teks menjadi rata tengah */
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .profile-image {
+    width: 150; /* Sesuaikan ukuran foto */
+    height: 200px; /* Sesuaikan ukuran foto */
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: auto; /* Sesuaikan foto menjadi rata tengah */
+    margin-right: auto; /* Sesuaikan foto menjadi rata tengah */
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .profile-title {
+    font-size: 1.2rem;
+    color: gray;
+    text-align: center; /* Sesuaikan teks menjadi rata tengah */
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .about-content {
+    margin-top: 20px;
+    text-align: left; /* Sesuaikan teks menjadi rata kiri */
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .about-content h2,
+  .work-experience h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold; /* Pastikan teks menjadi tebal */
+    text-align: left; /* Sesuaikan teks menjadi rata kiri */
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  .about-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    text-align: justify; /* Sesuaikan teks menjadi rata kiri dan kanan */
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .work-experience ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Sesuaikan teks menjadi rata kiri */
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .work-experience li {
+    margin-bottom: 20px;
+    text-align: left; /* Sesuaikan teks menjadi rata kiri */
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .work-experience h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #333;
+    text-align: left; /* Sesuaikan teks menjadi rata kiri */
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  
+  .verified-badge {
+    color: #0d6efd; /* Warna biru untuk tanda centang */
+    font-size: 1.2rem;
+    margin-left: 0; /* Sesuaikan tanda centang menjadi rata kiri */
+    animation: clipIn ease 1s; /* Tambahkan animasi untuk efek kliping */
+  }
+  @keyframes clipIn {
+    0% {clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); opacity: 0;}
+    100% {clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); opacity: 1;}
+  }

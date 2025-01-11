@@ -1,0 +1,10 @@
+.footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: white; /* Ubah warna latar menjadi putih */
+    color: rgb(0, 0, 0); /* Pastikan warna teks hitam */
+    text-align: center;
+    padding: 10px; /* Tambahkan padding untuk tipiskan */
+    font-family: 'Poppins', sans-serif; /* Sesuaikan font menjadi Poppins */
+  }
